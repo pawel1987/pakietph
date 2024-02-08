@@ -24,6 +24,9 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(pakietph)
+df = read.csv2(system.file("dane_przykladowe", package = "pakietph") |> dir(full.names = TRUE))
+# Obliczanie site index w wieku bazowym 100 lat dla drzewostanów w tabeli df
+df$si = thmodel(df$wysokosc, df$wiek, T2 = 100)
 ## basic example code
 ```
 

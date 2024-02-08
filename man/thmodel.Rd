@@ -11,7 +11,7 @@ thmodel(H1, T1, T2)
 
 \item{T1}{Aktualny wiek drzewostanu}
 
-\item{T2}{Wiek, dla którego liczymy wysokośc}
+\item{T2}{Wiek, dla którego liczymy wysokość}
 }
 \value{
 wektor numeryczny
